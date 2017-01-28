@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento");
+#page_welcome {
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+
+.page_welcome__front {
+  position: absolute;
+  width: 90vw;
+  height: 90vh;
+  opacity: 0.8;
+  margin: 5vh auto;
+  z-index: 2; }
+
+.page_welcome__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; }
