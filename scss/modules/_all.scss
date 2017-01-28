@@ -16,6 +16,8 @@
     animation: $value;
 }
 
-$color-stripe-1: #9679ff;	//purple
-$color-stripe-2: #d499ea; //blue
-$color-stripe-3: #eea4b3; //pink
+@mixin flexing-row(){
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;;
+}
